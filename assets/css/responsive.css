@@ -1,0 +1,109 @@
+/*
+@media (max-width: 800px)
+    /* Css */ /* Độ rộng tối đa nhỏ hơn hoặc bằng 800px thì sẽ chạy */
+
+/* BREAK POINT: Điểm bẻ
+    PC: >= 1024px
+    Tablet: >= 740px và <= 1024px
+    Mobile: < 740px
+*/
+
+/* PC */
+@media (min-width: 64em){
+    
+}
+
+
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em){
+    
+}
+
+/* Tablet and Mobile */
+@media (max-width: 63.9375em){
+    .place-list .place-buy-btn{
+        padding: 16px 16px;
+    }
+
+    .contact-info{
+        line-height: 2;
+    }
+
+    .contact-form .form-control{
+        padding: 15px;
+    }
+
+    #footer .socials-list{
+        font-size: 48px;
+    }
+
+    #footer .socials-list a{
+        margin: 8px;
+    }
+}
+
+
+/* MOBILE */
+@media (max-width: 46.1875em){
+    .s-full-width,
+    .s-columns-full{
+        width: 100% !important;
+    }
+
+
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li{
+        display: block;
+    }
+    #nav > li:first-child /* Con đầu tiên */{
+        display: inline-block;
+    }
+
+    #nav .subnav{
+        position: initial; /* Position về giá trị mặc định */
+        background-color: #333;
+    }
+
+    #nav .subnav a{
+        color: #fff;
+        padding: 5px 41px;
+
+    }
+
+    #content .member-img{
+        width: 60%;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+    .contact-form .form-control{
+        margin-top: 8px;
+    }
+
+    #footer .socials-list{
+        font-size: 30px;
+    }
+
+    
+}
